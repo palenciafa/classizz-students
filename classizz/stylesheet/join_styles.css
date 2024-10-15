@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.colored {
+    color: #BA68C8;
+  }
+  
+
+/* Join a Class Section */
+.section {
+    margin-top: 30px;
+}
+
+.section h2 {
+    margin-left: 30px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.join-class {
+    background-color: #482c79;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.join-class label {
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+
+}
+
+.input-group {
+    display: flex;
+    border: 2px solid #DA88F9;
+    border-radius: 10px; 
+    padding: 10px;
+    overflow: hidden; /* Ensure child elements respect the parent's border radius */
+}
+
+.input-group input {
+    flex: 1;
+    padding: 10px;
+    border: none; /* Remove border */
+    font-size: 1rem;
+    outline: none;
+    border-radius: 5px 0 0 5px ;
+}
+
+.input-group button {
+    background-color: #BA68C8;
+    color: white;
+    border: none; /* Remove border */
+    padding: 10px 20px;
+    border-radius: 0px 5px 5px 0 ;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.input-group button:hover {
+    background-color: #a144cd;
+}
+
+/* Class Preview Section */
+.class-preview {
+    background-color: #482c79;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.class-preview h3 {
+    color: white;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.class-card {
+    border: solid 2px #DA88F9;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.class-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+}
+
+.class-info {
+    margin-left: 15px;
+}
+
+.class-info h4 {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.class-info p {
+    color: #ffffff;
+    font-size: 0.9rem;
+    margin-top: 5px;
+}
+
+hr {
+    border: 1px solid #DA88F9;
+    margin-top: 10px;
+    width: 15rem;
+}
+
+.icon-image {
+    width: 20px; /* Adjust size as necessary */
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 8px; /* Adds space between the icon and the text */
+}
+
+.card-text {
+    display: flex; /* Enables flexbox layout */
+    align-items: center; /* Vertically aligns the items to the center */
+}
+
+
+.card-text span {
+    font-size: 1rem; /* Adjust the font size as necessary */
+    margin-top: 14px;
+    color: #ffffff; /* Adjust the color as necessary */
+}
